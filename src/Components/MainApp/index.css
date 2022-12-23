@@ -1,0 +1,159 @@
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  padding: 20px 100px;
+  width: 80vw;
+}
+.logo {
+  height: 36px;
+}
+.upper-card,
+.bottom-card {
+  background-color: #5763a5;
+  height: 60vh;
+  margin-top: 10px;
+  border-radius: 6px;
+  padding: 50px 30px;
+}
+.form {
+  background-color: #454f84;
+  height: 100%;
+  border-radius: 5px;
+  width: 46%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 20px;
+}
+.icon {
+  height: 24px;
+  border-right: 1px solid gray;
+  padding: 3px 6px;
+}
+.website {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 3px;
+}
+input {
+  border: 0px;
+  font-weight: 700;
+  font-size: 12px;
+  outline: none;
+  color: gray;
+  padding-left: 8px;
+  width: 90%;
+}
+.btn {
+  margin-top: 20px;
+  color: white;
+  background-color: #0b69ff;
+  border: 0px;
+  font-size: 12px;
+  padding: 8px;
+  width: 70px;
+  font-weight: 700;
+  border-radius: 4px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.upper-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-cont {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border-radius: 3px;
+  width: 240px;
+}
+.search-input {
+  border: 0px;
+  font-weight: 700;
+  font-size: 12px;
+  outline: none;
+  color: gray;
+  padding-left: 8px;
+  width: 90%;
+}
+.upper-area {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0px;
+  flex: 50%;
+  margin-top: 6px;
+}
+.count {
+  font-size: 12px;
+  border: 1px solid #ffffff;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.bottom-card {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  min-height: 60vh;
+  height: auto;
+}
+.bottom-area {
+  text-align: center;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+}
+.checkbox-label {
+  font-size: 16px;
+}
+.show-password {
+  text-align: end;
+}
+.store-img {
+  width: 300px;
+}
+.no-pass {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+.password-store {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 24px;
+}
+.count {
+  color: white;
+}
+.contt {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  margin-top: 0px;
+  color: white;
+}
+.add-password-text {
+  color: white;
+  font-size: 20px;
+}
